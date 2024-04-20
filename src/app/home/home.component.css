@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+    color: black; /* Set heading text color to black */
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 18px; /* Increased padding for rows */
+    color: black; /* Set text color to black */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: black; /* Set heading text color to black */
+    font-weight: bold; /* Make heading text bold */
+  }
+  
